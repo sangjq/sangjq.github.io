@@ -1,0 +1,58 @@
+.blog-home {
+  height: 100%;
+}
+.blog-home .loyout-left {
+  color: #fff;
+  background: #00cccc;
+  width: 300px;
+  height: 100%;
+}
+.blog-home .loyout-left .user {
+  text-align: center;
+  padding: 80px 0;
+}
+.blog-home .loyout-left .user .face {
+  height: 80px;
+  line-height: 80px;
+  width: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  background: #fff;
+  display: inline-block;
+}
+.blog-home .loyout-left .user .face img {
+  height: 80%;
+  width: auto;
+  vertical-align: middle;
+}
+.blog-home .loyout-left .user .username {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.blog-home .loyout-left .nav ul li {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.blog-home .loyout-left .nav ul li .iconfont {
+  height: 50%;
+  display: inline-block;
+  width: 30px;
+  vertical-align: middle;
+}
+.blog-home .loyout-left .nav ul li span {
+  vertical-align: middle;
+}
+.blog-home .loyout-left .nav ul li.active,
+.blog-home .loyout-left .nav ul li:hover {
+  color: #00cccc;
+  background: #fff;
+}
+.blog-home .loyout-left .nav ul li:not(:last-of-type) {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+}
+ul, ol{
+  li{
+    list-style-type: none;
+  }
+}
+a{
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  color: #000;
+}
+// img{
+//   display: block;
+//   width: 100%;
+// }
+i,em{
+  font-style: normal;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix{
+  *zoom: 1;
+}
+
+header,
+main,
+footer{
+  display: block;
+}
+
+main{
+  padding: 0 0.2rem;
+}
+
+button{
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-size: 0.24rem;
+  border-radius: 0.1rem;
+}
+.nowrap-text{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
